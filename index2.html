@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="content">
+ <!-- -----------------------navbar-(slidebar)------------------->
+        <nav class="my-navbar d-flex flex-column justify-content-start">
+            <div class="logo">
+                <img src="./assets/Spotify-logo.png" alt="logo">
+            </div>
+
+            <div class="navbar-section-A">
+                <div class="firstbox nav-home d-flex align-items-center ">
+                    <a class="me-4" href="./index.html">
+                        <img src="./assets/home.svg" alt="icon">
+                    </a>
+                    <a href="./index.html"><p class="m-0">Home</p></a>
+                </div>
+                <div class="firstbox nav-fade d-flex align-items-center ">
+                    <a class="me-4" href="#">
+                        <img src="./assets/search-icon.svg" alt="icon">
+                    </a>
+                    <a><p class="m-0">Search</p></a>
+                </div>
+                
+                <div class="firstbox nav-fade d-flex align-items-center ">
+                    <a class="me-4" href="#">
+                        <img src="./assets/library.svg" alt="icon">
+                    </a>
+                    <a><p class="m-0">Your Library</p></a>
+                </div>
+            </div>
+            
+            <h6>PLAYLISTS</h6>
+            <div class="navbar-section-B nav-fade">
+                <div class="firstbox  d-flex align-items-center ">
+                    <a class="me-4 bg-light" href="#">
+                        <img src="./assets/plus-rectangle.svg" width="32px" height="32px" alt="icon">
+                    </a>
+                    <a><p class="m-0 ">Create Playlist</p></a>
+                </div>
+                <div class="firstbox d-flex align-items-center ">
+                    <a class="me-4" href="#">
+                        <img src="./assets/heart.svg" width="32px" height="32px " alt="icon">
+                    </a>
+                    <a><p class="m-0">Liked Songs</p></a>
+                </div>             
+            </div>
+
+            <div class="nav-img-sec d-flex justify-content-center ">
+                <img src="./assets/nav-img.svg" alt="pic">
+            </div>
+
+        </nav>
+
+
+<!-- ------------------------songs-playlists-section---------------- -->
+        <div class="hero-section">
+
+            <div class="upper-section d-flex flex-wrap m-0 pt-5 ">
+                <div>
+                    <img src="./assets/pop-right-now.svg" alt="pic">
+                </div>
+                <div>
+                    <p>PLAYLIST</p>
+                    <h1>Pop Right Now</h1>
+                    <p class="light-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus</p>
+                    <div class="d-flex">
+                        <p class="me-2 fw-bold">Spotify</p>
+                        <p class="light-text me-2">• 860,305 likes</p>
+                        <p class="light-text">• 100 songs, 5 hr 5 min</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="bottom-songs-section">
+                <div class="green-play-btn-row p-1 ps-5">
+                    <img src="./assets/thumb_play.svg"  alt="icon">
+                    <img src="./assets/trans-heart.svg"  alt="icon">
+                    <img src="./assets/more_big.svg"  alt="icon">
+                </div> 
+                <div class="titles ps-2 mt-3 align-items-center d-flex">
+                    <p class="col-4 text-light ms-3"># TITLE</p>
+                    <p class="col-4 text-light ms-5">ALBUM</p>
+                    <p class=" titles-p-3 col-4 text-light">DATE ADDED</p>
+                </div>
+                <div class="horizontal-line mb-4"></div>
+
+                <div class="current_songs ps-2 m-2 ms-3 d-flex justify-content-between align-items-center  text-white">
+
+                    <div class="d-flex align-items-center">
+                        <img src="./assets/Playbtn.svg" width="14px" height="12px" alt="icon">
+                        <img class="mx-2" src="./assets/songs-img.svg" width="40px" height="38px" alt="pic">
+                        <div>
+                            <p class="m-0">We’re Good</p>
+                            <p class="small-text m-0">Dua Lipa</p>
+                        </div>
+                    </div>
+
+                    <p class="small-text m-0">Future Nostalgia (The Moonlight Edition)</p>
+
+                    <p class="m-0 light-text">4일 전</p>
+
+                    <div class="d-flex align-items-center">
+                        <img src="./assets/icon-heart.svg" alt="icon">
+                        <p class="mx-3 fs-6 m-0  light-text">2:45</p>
+                        <img class="pe-2" src="./assets/icon-more-info.svg" alt="icon">
+                    </div>
+
+
+                </div>
+
+
+                <div class="songs ps-2 m-2 ms-3 d-flex justify-content-between align-items-center  text-white">
+
+                    <div class="d-flex align-items-center">
+                        <img src="./assets/2.svg" width="14px" height="12px" alt="icon">
+                        <img class="mx-2" src="./assets/song-img-2.svg" width="40px" height="38px" alt="pic">
+                        <div>
+                            <p class="m-0">We’re Good</p>
+                            <p class="small-text m-0">Dua Lipa</p>
+                        </div>
+                    </div>
+
+                    <p class="small-text m-0">Future Nostalgia (The Moonlight Edition)</p>
+
+                    <p class="m-0 me-4 light-text">4일 전</p>
+
+                    <div class="d-flex align-items-center">
+                        <p class="mx-3 fs-6 m-0  light-text">2:45</p>
+                        <img class="pe-2" src="./assets/icon-more-info.svg" alt="icon">
+                    </div>
+
+
+                </div>
+                
+                <div class="songs ps-2 m-2 ms-3 d-flex justify-content-between align-items-center  text-white">
+
+                    <div class="d-flex align-items-center">
+                        <img src="./assets/2.svg" width="14px" height="12px" alt="icon">
+                        <img class="mx-2" src="./assets/song-img-2.svg" width="40px" height="38px" alt="pic">
+                        <div>
+                            <p class="m-0">We’re Good</p>
+                            <p class="small-text m-0">Dua Lipa</p>
+                        </div>
+                    </div>
+
+                    <p class="small-text m-0">Future Nostalgia (The Moonlight Edition)</p>
+
+                    <p class="m-0 me-4 light-text">4일 전</p>
+
+                    <div class="d-flex align-items-center">
+                        <p class="mx-3 fs-6 m-0  light-text">2:45</p>
+                        <img class="pe-2" src="./assets/icon-more-info.svg" alt="icon">
+                    </div>
+
+
+                </div>
+                <div class="songs ps-2 m-2 ms-3 d-flex justify-content-between align-items-center  text-white">
+
+                    <div class="d-flex align-items-center">
+                        <img src="./assets/2.svg" width="14px" height="12px" alt="icon">
+                        <img class="mx-2" src="./assets/song-img-2.svg" width="40px" height="38px" alt="pic">
+                        <div>
+                            <p class="m-0">We’re Good</p>
+                            <p class="small-text m-0">Dua Lipa</p>
+                        </div>
+                    </div>
+
+                    <p class="small-text m-0">Future Nostalgia (The Moonlight Edition)</p>
+
+                    <p class="m-0 me-4 light-text">4일 전</p>
+
+                    <div class="d-flex align-items-center">
+                        <p class="mx-3 fs-6 m-0  light-text">2:45</p>
+                        <img class="pe-2" src="./assets/icon-more-info.svg" alt="icon">
+                    </div>
+
+
+                </div>
+
+                <div class="songs ps-2 m-2 ms-3 d-flex justify-content-between align-items-center  text-white">
+
+                    <div class="d-flex align-items-center">
+                        <img src="./assets/2.svg" width="14px" height="12px" alt="icon">
+                        <img class="mx-2" src="./assets/song-img-2.svg" width="40px" height="38px" alt="pic">
+                        <div>
+                            <p class="m-0">We’re Good</p>
+                            <p class="small-text m-0">Dua Lipa</p>
+                        </div>
+                    </div>
+
+                    <p class="small-text m-0">Future Nostalgia (The Moonlight Edition)</p>
+
+                    <p class="m-0 me-4 light-text">4일 전</p>
+
+                    <div class="d-flex align-items-center">
+                        <p class="mx-3 fs-6 m-0  light-text">2:45</p>
+                        <img class="pe-2" src="./assets/icon-more-info.svg" alt="icon">
+                    </div>
+
+
+                </div>
+                <div class="songs ps-2 m-2 ms-3 d-flex justify-content-between align-items-center  text-white">
+
+                    <div class="d-flex align-items-center">
+                        <img src="./assets/2.svg" width="14px" height="12px" alt="icon">
+                        <img class="mx-2" src="./assets/song-img-2.svg" width="40px" height="38px" alt="pic">
+                        <div>
+                            <p class="m-0">We’re Good</p>
+                            <p class="small-text m-0">Dua Lipa</p>
+                        </div>
+                    </div>
+
+                    <p class="small-text m-0">Future Nostalgia (The Moonlight Edition)</p>
+
+                    <p class="m-0 me-4 light-text">4일 전</p>
+
+                    <div class="d-flex align-items-center">
+                        <p class="mx-3 fs-6 m-0  light-text">2:45</p>
+                        <img class="pe-2" src="./assets/icon-more-info.svg" alt="icon">
+                    </div>
+
+
+                </div>
+
+                <div class="songs ps-2 m-2 ms-3 d-flex justify-content-between align-items-center  text-white">
+
+                    <div class="d-flex align-items-center">
+                        <img src="./assets/2.svg" width="14px" height="12px" alt="icon">
+                        <img class="mx-2" src="./assets/song-img-2.svg" width="40px" height="38px" alt="pic">
+                        <div>
+                            <p class="m-0">We’re Good</p>
+                            <p class="small-text m-0">Dua Lipa</p>
+                        </div>
+                    </div>
+
+                    <p class="small-text m-0">Future Nostalgia (The Moonlight Edition)</p>
+
+                    <p class="m-0 me-4 light-text">4일 전</p>
+
+                    <div class="d-flex align-items-center">
+                        <p class="mx-3 fs-6 m-0  light-text">2:45</p>
+                        <img class="pe-2" src="./assets/icon-more-info.svg" alt="icon">
+                    </div>
+
+
+                </div>
+                
+            
+               
+
+
+                        
+            
+                
+            </div>
+
+        </div>
+
+<!-- ------------------------footer---------------- -->
+        <footer class="my-footer">
+            <div class="row-1 p-3  d-flex align-items-center justify-content-between">
+    
+                <div class="left-foot d-flex justify-content-center align-items-center ">
+                    <div class="left-foot-play-img">
+                        <img src="./assets/hold-on.svg"  width="62px" height="65px" alt="pic">
+                    </div>
+                    <div class="foot-left-text mt-4 mx-3 text-white ">
+                        <p>Hold On</p>
+                        <p id="foot-left-text-2">Justin Beiber</p>
+                    </div>
+                    <div>
+                        <img src="./assets/trans-heart.svg" width="24px" height="24px" alt="icon">
+                        <img src="./assets/pip.svg" width="24px" height="24px" alt="icon">
+                    </div>
+                </div>
+        
+                <div class="middle-foot">
+                    <img src="./assets/music-player.svg"  height="73px" alt="pic">
+                </div>
+        
+                <div class="right-foot">
+                    <img src="./assets/right-foot.svg" width="200px" alt="pic">            
+                </div>
+                
+            </div>
+            
+        </footer>
+    </main>
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat&family=Poppins&family=Roboto&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.content{
+    display: flex;
+    overflow: hidden;
+}
+/* -----------Navbar-section-------------- */
+.my-navbar{
+    background-color: #000000;
+    color: white;
+    width: 20%;
+    height: 85vh;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.logo{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+
+}
+.logo>img{
+    width: 13vw;
+    height: 8vh;
+}
+.firstbox{
+    width: 19.8vw;
+    padding: 6px;
+    padding-left: 25px;
+
+}
+.nav-home>a{
+    color: #FFF;
+    text-decoration: none;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: -1.14px;
+
+}
+.navbar-section-A>.firstbox:hover{
+    outline: 1px solid rgb(84, 79, 79);
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(59, 57, 57, 0.632);
+}
+.navbar-section-A ,.navbar-section-B>div>a{
+    color: #FFF;
+    text-decoration: none;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: -1.14px;
+
+}
+.navbar-section-B{
+    margin-top: 25px;
+
+}
+.navbar-section-B>.firstbox:hover{
+    outline: 1px solid rgb(84, 79, 79);
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+#your-episodes{
+    background-color: #004638;
+}
+
+
+.navbar-section-C{
+    margin-top: 30px;
+    line-height: 16px;
+    
+}
+.navbar-section-C>p{
+    padding-left: 25px;
+}
+
+
+
+/* --------------hero-page----------- */
+.hero-section{
+    width: 80%;
+    height: 85vh;
+    overflow-y: auto;
+    /* background-image: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%); */
+    background-color: #000;   
+}
+
+.left-right-slide-btns>a{
+    text-decoration: none;
+}
+
+.right-profile-sec>p{
+    width: 75px;
+    height: 31px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+
+}
+
+.head-cards{
+    margin-right: 30px;
+    padding: 30px;
+
+}
+
+.h-cards{
+    width: 320px;
+    height: 90px;
+    margin: 10px;
+    border-radius: 4px;
+    background: #303030;
+
+}
+.h-cards:hover{
+    background: #454444ee;
+}
+
+
+.playlist-heading{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 29px;
+    font-weight: 700;
+    letter-spacing: -1.16px;
+    padding-inline: 30px;
+}
+
+.playlist-heading>p{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color:rgba(179, 179, 179, 1);
+    
+}
+
+
+.p-cards{
+    width: 230px;
+    height: 285px;
+    flex-shrink: 0;
+    background: #181818;
+    display: flex;
+    flex-direction: column;
+}
+.p-cards:hover{
+    background: #454444ee;
+}
+
+.p-cards>h4{
+    
+    width: 211.042px;
+    height: 27.216px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: -0.42px;
+}
+.p-cards>p{
+    margin-left: -50px;
+    color: #B3B3B3;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.15px;
+}
+
+
+/* ------------------footer--------- */
+
+.my-footer{
+    padding-inline: 20px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 15vh;
+    background: #181818;
+}
+
+
+.left-foot{ 
+    padding: 30x;
+    margin-bottom: 5px;
+}
+
+.foot-left-text>p{
+    font-size: 17px;
+    line-height: 12px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-weight: 700;
+    letter-spacing: -0.9px;
+
+}
+#foot-left-text-2{
+    color: #B3B3B3;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: -0.75px;
+
+}
+
+.middle-foot>img{
+    width: 55vw; 
+    margin-left: 6vw;
+    top: 998px;
+    border-radius: 2.5px
+
+}
+.right-foot>img{
+    width: 16vw;
+
+}
+.row-2>img{
+    margin-top: -10px;
+    margin-left:-20px;
+    width: 100vw;
+    
+
+}
+
+
+
+/* ------------css-for-index2---------- */
+
+
+
+
+.nav-home{  
+
+    background-color: rgba(59, 57, 57, 0.632);
+
+}
+
+.nav-fade{
+    opacity: 0.7;
+}
+.my-navbar>h6{
+    margin-top: 25px;
+    padding-left: 20px;
+    margin-bottom: -15px;
+    color: #B3B3B3;
+    font-family: Circular Std;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.nav-img-sec{
+    margin-top: auto;
+}
+.nav-img-sec>img{
+    width: 20vw;;
+    height: 20vh;
+    margin-bottom: 2vh;
+}
+
+.upper-section{
+    align-items: center;
+    background: linear-gradient(180deg, #90AEA7 0%, #000 100%);
+}
+
+.upper-section>div>h1{
+    font-size: 90px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+.upper-section p{
+    margin: 0px;
+    font-family: Circular Std;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+
+.light-text{
+    font-family: Dm Sans;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(211, 211, 211, 0.844);
+    opacity: 0.7;
+
+}
+
+.titles{
+    color: #FFF;
+    font-family: Dm Sans;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.32px;
+    opacity: 0.7;
+
+}
+.titles-p-3{
+    margin-left: -4.2vw;
+}
+
+.horizontal-line{
+    width: 100%;
+    margin-top: -15px;
+    border-top: 1px solid rgba(154, 149, 149, 0.334);
+}
+
+
+.current_songs{
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(59, 57, 57, 0.632);
+}
+
+.songs:hover{
+    border-radius: 5px;
+    background-color: rgba(59, 57, 57, 0.632);
+
+}
+
+.small-text{
+    color: #FFF;
+    font-family: Dm sans;
+    font-size: 14px;
+    font-weight: 400;
+}
